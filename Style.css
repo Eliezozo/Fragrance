@@ -78,6 +78,8 @@ p{
     flex: 1 0 auto;
 }
 
+
+
 footer{
     border-top: solid 2px green;
     color: black;
@@ -115,13 +117,30 @@ h1{
     gap: 20px;
 }
 
+
 .produits{
-    
-        display: grid;            
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-        grid-gap: 16px;         
-        padding: 16px;
+    display: flex;
+    animation: scroll 10s linear infinite; /* Animation pour faire défiler les images */
+    animation-iteration-count: infinite;
+
 }
+
+.produits img {
+    width: 450px;
+    height: 250px;
+    object-fit: contain;
+}
+
+@keyframes scroll{
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
 .produits img{
-    width: 100%;
+    margin-right: 10px; 
 }
