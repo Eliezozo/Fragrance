@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="les_logos/WhatsApp Image 2025-03-05 à 17.14.14_72a17db5.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"/>
+    <link rel="stylesheet" href="./output.css">
+    <title>Parfumerie</title>
+</head>
+<body>
+    <header id="navbar" class="bg-green-900 fixed w-full top-0 left-0 z-50">
+        <nav class="container flex items-center justify-between h-16 sm:h-20">
+            <div class="font-Lobster sm:text-2xl">Fragrance.</div>
+
+            <div id="nav-menu" class="absolute top-0 left-[-100%] min-h-[80vh] w-full
+            bg-green-950/80 backdrop-blur-sm flex items-center justify-center duration-300 overflow-hidden
+            lg:static lg:min-h-fit lg:bg-transparent lg:w-auto ">
+                <ul class="flex flex-col items-center  gap-8 lg:flex-row">
+                    <li>
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#boutus" class="nav-link">A propos</a>
+                    </li>
+                    <li>
+                        <a href="#contactus" class="nav-link">Contactez-nous</a>
+                    </li>
+                </ul>
+
+                <div class="absolute bottom-0 -right-10 opacity-70 lg:hidden">
+                    <img src="les_photos/3 (3).png" alt="###" class="w-32">
+                </div>
+                <div class="absolute -top-5 left-5 rotate-50 opacity-20 lg:hidden">
+                    <img src="les_photos/3 (3).png" alt="###" class="w-80">
+                </div>
+            </div>
+            <div class="text-xl sm:text-3xl cursor-pointer z-50 lg:hidden">
+                <i class="ri-menu-4-line" id="hamburger"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="relative">
+            <div class="container">
+
+                <div class="w-64 h-64 bg-green-700 rounded-full blur-3xl -z-10
+                opacity-40 absolute top-1/2 left-1/2 transform -translate-x-1/2
+                -translate-y-1/2">
+                </div>
+
+                <div class="w-64 h-64 bg-green-700 rounded-full blur-3xl -z-10
+                opacity-40 absolute right-0 bottom-0">
+                </div>
+                <div class="flex flex-col items-center gap-5 lg:flex-row">
+
+                    <div  class="w-full space-y-5 lg:w-2/3">
+                        <h1>
+                            <span class="text-yellow-500 ">Du parfum </span> pour vous et votre 
+                            <br>
+                                famille pour
+                            <span class="text-yellow-500">impacter</span> l'entourage  <br>
+                        </h1>
+                        <p class="text-slate-300 font-Lobster">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Amet deserunt sequi quidem dignissimos molestiae laboriosam.
+                            Aperiam eos vel, a iure, dignissimos officia nemo,
+                            quod mollitia libero magni cumque omnis ducimus!
+                        </p>
+
+                        <div class="flex flex-col gap-2 sm:flex-row md:gap-4
+                        lg:pt-5 xl:pt-10">
+                            <a href="#choix">
+                                <button class="btn">
+                                    <span>Boutique</span>
+                                    <i class="ri-bard-line"></i>
+                                </button>
+                            </a>
+
+                            <button class="btn btn_outline">
+                                <span>Savoir plus</span>
+                                <i class="ri-user-smile-line"></i>
+                            </button>
+                        </div>
+
+                        <p class="text-xs font-Lobster text-slate-300">
+                            Hmmmmmm ça sent bon
+                        </p>
+
+                        <div class="flex items-center gap-5 text-lg lg:pt-10">
+                            <i class="ri-facebook-fill text-slate-300 hover:text-yellow-500
+                            duration-300 cursor-pointer"></i>
+                            <a href="http://wa.me//91480288"><i class="ri-whatsapp-fill text-slate-300 hover:text-yellow-500
+                                duration-300 cursor-pointer"></i></a>
+                            <i class="ri-linkedin-fill text-slate-300 hover:text-yellow-500
+                            duration-300 cursor-pointer"></i>
+                        </div>
+                    </div>
+
+                    <!-- image -->
+
+                    <div class="w-full relative lg:w-1/3">
+                        <img src="les_photos/3.jpeg" alt="">
+
+
+                        <div class="absolute -top-10 right-0 opacity-60 xl:top-5 animate-movingY">
+                            <img src="les_photos/3 (1).png" alt="" class="w-10">
+                        </div>
+
+                        <div class="absolute bottom-0 left-0 opacity-30 xl:bottom-12 animate-rotating">
+                            <i class="ri-flower-line text-6xl text-yellow-500"></i>
+                        </div>
+
+                        <div class="hidden absolute -top-8 -left-5 opacity-70 lg:block animate-scalingUp">
+                            <img src="les_photos/3 (2).png" alt="" class="w-10">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+                    <!-- services -->
+        <div class="bg-white text-green-900 py-20">
+            <div  class="container w-full grid grid-cols-1 gap-8 md:grid-cols-2 
+            lg:grid-cols-3 xl:grid-cols-3">
+                <!-- card -->
+
+                <div class="border border-green-900 p-5 cursor-ointer rounded-md
+                hover:shadow-2xl hover:-trnslate-y-1 duration-300 space-y-5">
+                    <div class="flex items-center gap-5">
+                        <i class="ri-truck-line text-3xl md:text-4xl
+                        xl:text-5xl"></i>
+                        <p class="md:text-lg font-bold">
+                            Livraison <br> rapide 
+                        </p>
+                    </div>
+                    <p class="font-Lobster">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, nulla cum temporibus, dolores magnam eius optio animi nemo quod corrupti, 
+                        at excepturi voluptatem eum molestias qui repellat dolorum magni aliquid?
+                    </p>
+                </div>
+                <div class="border border-green-900 p-5 cursor-ointer rounded-md
+                hover:shadow-2xl hover:-trnslate-y-1 duration-300 space-y-5">
+                    <div class="flex items-center gap-5">
+                        <i class="ri-money-dollar-circle-line text-3xl md:text-4xl
+                        xl:text-5xl"></i>
+                        <p class="md:text-lg font-bold">
+                            Paiement <br> facile 
+                        </p>
+                    </div>
+                    <p class="font-Lobster">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, nulla cum temporibus, dolores magnam eius optio animi nemo quod corrupti, 
+                        at excepturi voluptatem eum molestias qui repellat dolorum magni aliquid?
+                    </p>
+                </div>
+                <div class="border border-green-900 p-5 cursor-ointer rounded-md
+                hover:shadow-2xl hover:-trnslate-y-1 duration-300 space-y-5">
+                    <div class="flex items-center gap-5">
+                        <i class="ri-bard-line text-3xl md:text-4xl
+                        xl:text-5xl"></i>
+                        <p class="md:text-lg font-bold">
+                            Originale <br> odeur 
+                        </p>
+                    </div>
+                    <p class="font-Lobster">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, nulla cum temporibus, dolores magnam eius optio animi nemo quod corrupti, 
+                        at excepturi voluptatem eum molestias qui repellat dolorum magni aliquid?
+                    </p>
+                </div>
+            </div>
+        </div>
+                   <!-- a propos -->
+        <section id="boutus" class="relative overflow-hidden">
+
+                    <!-- A modifier après -->
+            <!-- <div class="absolute -top-8 -right-12 opacity-50">
+                <img src="les_photos/8.jpeg" alt="" class="w-40 md:w-52 xl:w-64 ">
+            </div> -->
+
+            <div class="flex flex-col items-center gap-3 text-center mb-10 
+            md:mb-20">
+                <h2 class="title">A propos de nous</h2>
+                <p class="max-w-2xl">Suivez pour plus d'information</p>
+            </div>
+
+            <div class="container space-yy-10 xl:space-y-0">
+                <div class="flex flex-col items-center lg:flex-row gap-5">
+                    <div class="w-full lg:x-1/2">
+                        <img src="les_photos/1.png" alt="" class="w-full sm:w-2/3 lg:w-full xl:w-2/3 maw-auto">
+                    </div>
+
+                    <div class="w-full lg:w-1/2 ">
+                        <div class="sapce-y-5">
+                            <h3>
+                                Rend ta <span class="text-yellow-500">maison</span> au parfum du siècle
+                            </h3>
+                            <p class="text-slate-300 font-Lobster">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                Accusamus tempora quas voluptatum aperiam debitis sapiente saepe dicta blanditiis tenetur!
+                                Eius beatae delectus quo expedita harum quidem nobis inventore accusantium laboriosam.
+                            </p>
+                        </div>
+
+                        
+                        
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center lg:flex-row-reverse gap-x-8">
+                    <div class="w-full lg:x-1/2">
+                        <img src="les_photos/1 (7).png" alt="" class="w-full sm:w-2/3 lg:w-full xl:w-2/3 maw-auto">
+                    </div>
+
+                    <div class="w-full lg:w-1/2 ">
+                        <div class="sapce-y-5">
+                            <h3>
+                                Rejoignez-nous<span class="text-yellow-500"> maintenant</span> 
+                            </h3>
+                            <p class="text-slate-300 font-Lobster">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                Accusamus tempora quas voluptatum aperiam debitis sapiente saepe dicta blanditiis tenetur!
+                                Eius beatae delectus quo expedita harum quidem nobis inventore accusantium laboriosam.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+
+                    <!-- populaire -->
+        <section id="choix" class="bg-green-900">
+            <div class="flex flex-col items-center gap-3 text-center mb-40">
+                <h2 class="title">Votre choix</h2>
+                <p class="max-w-2xl">Suivez pour plus d'information</p>
+            </div>
+
+            <div class="container w-full grid grid-cols-1 gap-x-8 gap-y-36 md:grrid-cols-2
+            lg:grid-cols-3 xl:grid-cols-4">
+                <div class="popular__card bg-green-950 p-10 pt-24 rounded-md relative">
+                    <img src="les_photos/1 (2).png" alt="" class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500">
+
+                    <p class="italic">Vos soirées sont assurées</p>
+                    <h3>Dior</h3>
+
+                    <div class="text-yellow-500 texttext-xs py-3">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        <i class="ri-star-line  text-gray-400"></i>
+                        <i class="ri-star-line  text-gray-400"></i>
+                    </div>
+
+                    <div class="flex items-center justify-between">
+                        <p class="text-xl">20.000 fcfa</p>
+
+                        <button class="bg-yellow-500 px-2 py-1 rounded-sm text-xl">
+                            <i class="ri-shopping-cart-fill"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="popular__card bg-green-950 p-10 pt-24 rounded-md relative">
+                    <img src="les_photos/1 (3).png" alt="" class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500">
+
+                    <p class="italic">Vos soirées sont assurées</p>
+                    <h3>Dior</h3>
+
+                    <div class="text-yellow-500 texttext-xs py-3">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        <i class="ri-star-line  text-gray-400"></i>
+                        <i class="ri-star-line  text-gray-400"></i>
+                    </div>
+
+                    <div class="flex items-center justify-between">
+                        <p class="text-xl">30.000 fcfa</p>
+
+                        <button class="bg-yellow-500 px-2 py-1 rounded-sm text-xl">
+                            <i class="ri-shopping-cart-fill"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="popular__card bg-green-950 p-10 pt-24 rounded-md relative">
+                    <img src="les_photos/1 (4).png" alt="" class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500">
+
+                    <p class="italic">Vos soirées sont assurées</p>
+                    <h3>Dior</h3>
+
+                    <div class="text-yellow-500 texttext-xs py-3">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        <i class="ri-star-line  text-gray-400"></i>
+                        <i class="ri-star-line  text-gray-400"></i>
+                    </div>
+
+                    <div class="flex items-center justify-between">
+                        <p class="text-xl">45.000 fcfa</p>
+
+                        <button class="bg-yellow-500 px-2 py-1 rounded-sm text-xl">
+                            <i class="ri-shopping-cart-fill"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="popular__card bg-green-950 p-10 pt-24 rounded-md relative">
+                    <img src="les_photos/1 (5).png" alt="" class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500">
+
+                    <p class="italic">Vos soirées sont assurées</p>
+                    <h3>Dior</h3>
+
+                    <div class="text-yellow-500 texttext-xs py-3">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        <i class="ri-star-line  text-gray-400"></i>
+                        <i class="ri-star-line  text-gray-400"></i>
+                    </div>
+
+                    <div class="flex items-center justify-between">
+                        <p class="text-xl">90.000 fcfa</p>
+
+                        <button class="bg-yellow-500 px-2 py-1 rounded-sm text-xl">
+                            <i class="ri-shopping-cart-fill"></i>
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- footer -->
+
+        <footer class="bg-yellow-100 text-green-950 pt-20 pb-10 md:pt-28 relative">
+            <div class="container text-white top-0 right-0 left-0  -translate-y-1/2">
+                <div class="bg-green-900 px-10 pt-10 space-y-5 rounded-md">
+                    <h3><span class="text-yellow-500">Abonnez-vous</span> pour sentir bon</h3>
+
+                    <div class="flex flex-col md:flex-row gap-1">
+                        <input type="email" placeholder="Your email adresse" class="w-full px-5 py-3 text-green-900
+                        rounded-md outline-none">
+                        <button class="flex items-center justify-center gap-1 bg-green-950 px-5 py-3 rounde-md hover:opacity-80 duration-300">
+                            <span>
+                                Abonne-toi
+                                <i class="ri-send-plane-2-fill"></i>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-16 mb-10">
+                <div class="border border-green-500 relative">
+                    <div class="absolute top-0 transform -translate-y-1/2 left-0 right-0 max-w-36 mx-auto">
+                        <div class="bg-yellow-100 text-lg text-center space-x-2">
+                            <i class="ri-facebook-fill hover:text-yellow-500 duration-300 cursor-pointer"></i>
+                            <i class="ri-twitter-fill hover:text-yellow-500 duration-300 cursor-pointer"></i>
+                            <a href="http://wa.me//91480288"><i class="ri-whatsapp-fill hover:text-yellow-500 duration-300 cursor-pointer"></i></a> 
+                            <i class="ri-linkedin-fill hover:text-yellow-500 duration-300 cursor-pointer"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container grid grid-cols_1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 text-center md:text-start">
+                <div>
+                    <div class="text-7xl text-green-700 text-center">
+                            <!-- Amodifier -->
+                        <img src="les_photos/2.png" alt="Logo" class="w-5 left-3 right-0">
+                        <p class="font-Lobster text-xl sm:text-2xl">Fragrance.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <p class="mb-5 font-bolder text-xl">Contactez-nous</p>
+
+                    <div class="flex flex-col gap-1" id="contactus">
+                        <a href="tel:+22892878037">+228 92878037</a>
+                        <a href="mailto:sossoumawupenukukpoe@gmail.com">sossoumawupenukukpoe@gmail.com</a>  <br>
+
+                        <p>Situé à lomé non loin de monsieur Boris, en face de la pésidence.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <p class="text-center mt-10 opacity-50">Copyrigth &copy; 2025 nous sommes disponible.</p>
+            </div>
+
+            <div class="absolute bottom-0 left-0 opacity-20 pointer-events-none">
+                        <!-- A ajouter -->
+
+                <img src="" alt="" class="w-full lg:w-1/2">
+            </div>
+
+            <a href="#" class="fixed right-4 -bottom-1/2 bg-yellow-500 shadow-sm inline-block px-3 py-1 md:px-4
+            md:py-2 rounded-md text-lg z-50 hover:-translate-y-1 duration-300" id="scroll-up">
+                <i class="ri-arrow-up-line"></i>
+            </a>
+        </footer>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
